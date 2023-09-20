@@ -1,0 +1,124 @@
+* {
+  font-family: poppins;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: cadetblue;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 1em 3em;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+  font-weight: 100;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
+
+a:active {
+  color: red !important;
+}
+
+.nav-button {
+  color: gray;
+}
+
+.nav-button:hover {
+  background-color: gray;
+}
+
+.logo {
+  color: white;
+  font-size: 3em;
+}
+
+/* Hero Section */
+
+.hero-container {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pt-70 {
+  padding-top: 70px !important;
+}
+
+.padding-top {
+  padding-top: 10%;
+}
+
+.hero-image > img {
+  padding-left: 30px;
+  height: 100%;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.hero-image:hover > img {
+  opacity: 0.8;
+}
+
+.hero-content > div > button:hover {
+  background-color: gray;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: cadetblue;
+  justify-content: center;
+  align-items: center;
+  padding: 20%;
+}
+
+footer > .social-media-icons > a > i {
+  color: white;
+}
+
+footer > h2 {
+  color: white;
+  font-size: 40px;
+}
+
+.text-dark-cadet {
+  color: rgb(103, 101, 101);
+}
+
+.text-cadetblue {
+  color: cadetblue;
+}
+
+.bg-cadet {
+  background: cadetblue;
+}
+
+.bg-section {
+  background: rgb(228, 228, 228);
+}
