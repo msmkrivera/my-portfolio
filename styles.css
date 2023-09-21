@@ -5,7 +5,7 @@
 }
 
 nav {
-  background-color: cadetblue;
+  background-color: #242434;
 }
 
 .container {
@@ -66,10 +66,6 @@ a:active {
   justify-content: center;
 }
 
-.pt-70 {
-  padding-top: 70px !important;
-}
-
 .padding-top {
   padding-top: 10%;
 }
@@ -92,10 +88,10 @@ a:active {
 footer {
   display: flex;
   flex-direction: column;
-  background-color: cadetblue;
+  background-color: #242434;
   justify-content: center;
   align-items: center;
-  padding: 20%;
+  padding-bottom: 4%;
 }
 
 footer > .social-media-icons > a > i {
@@ -111,14 +107,78 @@ footer > h2 {
   color: rgb(103, 101, 101);
 }
 
-.text-cadetblue {
-  color: cadetblue;
+.text-light-gray {
+  color: rgb(210, 210, 210);
 }
 
-.bg-cadet {
-  background: cadetblue;
+.footer-padding {
+  padding-top: 10%;
 }
 
 .bg-section {
-  background: rgb(228, 228, 228);
+  background: #323543;
+}
+
+.bg-section2 {
+  background: #242434;
+}
+
+.bg-yellow {
+  background: #f8a827;
+}
+
+.text-yellow {
+  color: #f8a827;
+}
+.margin-left {
+  margin-left: 5%;
+}
+
+.padding-left {
+  padding-left: 10%;
+}
+
+.padding-right {
+  padding-right: 10%;
+}
+
+.padding-bottom {
+  padding-bottom: 7%;
+}
+
+.about-box {
+  background: #f8a827;
+  height: 13em;
+  width: 14em;
+}
+
+.about-box-two {
+  background: white;
+  height: 13em;
+  width: 14em;
+}
+
+.about-box-2 {
+  background: #f8a827;
+  height: 13em;
+  width: 14em;
+}
+
+/* Style About card */
+.about-box-container {
+  width: 100%;
+  position: absolute;
+  bottom: 3em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about-section {
+  padding-bottom: 10% !important;
+  padding-top: 5%;
+}
+
+.home-section {
+  padding-bottom: 0% !important;
+  padding-top: 4.5%;
 }
