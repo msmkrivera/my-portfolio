@@ -21,97 +21,48 @@
     <title>clonepage</title>
   </head>
   <body>
-    <nav>
-      <!-- emmet -->
-      <div class="container navbar-dark">
-        <div>
-          <h1 class="text-white fs-1 d-none d-lg-block">PortfolioSite</h1>
-          <div class="d-lg-none d-flex justify-between">
-            <h1 class="text-white fs-1">PortfolioSite</h1>
-            <button
-              class="navbar-toggler text-primary"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarToggleExternalContent"
-              aria-controls="navbarToggleExternalContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-          <div class="collapse mt-3" id="navbarToggleExternalContent">
-            <div class="p-5">
-              <ul class="gap-5 my-auto d-md-flex">
-                <li>
-                  <a
-                    class="text-white text-decoration-none"
-                    href="/clone/index.html"
-                    >Home</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-white text-decoration-none"
-                    href="/about/index.html"
-                    >About</a
-                  >
-                </li>
-                <li>
-                  <a class="text-white text-decoration-none" href="#"
-                    >Services</a
-                  >
-                </li>
-                <li>
-                  <a class="text-white text-decoration-none" href="#"
-                    >Portfolio</a
-                  >
-                </li>
-                <li>
-                  <a class="text-white text-decoration-none" href="#"
-                    >Contact</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="bg-white text-decoration-none px-4 py-2 rounded-pill fw-bold text-dark-cadet"
-                    >HIRE ME</a
-                  >
-                </li>
-              </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="text-white navbar-brand" href="#">PortfolioSite</a>
+        <button
+          class="navbar-toggler navbar-dark"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="d-lg-flex justify-content-between align-items-center collapse navbar-collapse"
+          id="navbarText"
+        >
+          <ul
+            class="list-unstyled pt-3 pt-lg-0 text-end d-flex flex-column flex-lg-row gap-lg-3 me-auto mb-2 mb-lg-0 ps-0"
+          >
+            <li class="nav-item">
+              <a
+                class="pe-0 text-white nav-link active"
+                aria-current="page"
+                href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="pe-0 text-white nav-link" href="/about/index.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="pe-0 text-white nav-link" href="#">Services</a>
+            </li>
+          </ul>
+          <div class="text-end">
+            <button class="btn bg-yellow text-white">Hire Me</button>
           </div>
         </div>
-
-        <ul class="gap-5 my-auto d-none d-lg-flex">
-          <li>
-            <a class="text-white text-decoration-none" href="../index.html"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a class="text-white text-decoration-none" href="/about/index.html"
-              >About</a
-            >
-          </li>
-          <li>
-            <a class="text-white text-decoration-none" href="#">Services</a>
-          </li>
-          <li>
-            <a class="text-white text-decoration-none" href="#">Portfolio</a>
-          </li>
-          <li>
-            <a class="text-white text-decoration-none" href="#">Contact</a>
-          </li>
-          <li>
-            <a
-              href="#"
-              class="bg-yellow text-decoration-none px-4 py-2 rounded-pill fw-bold text-white"
-              >HIRE ME</a
-            >
-          </li>
-        </ul>
       </div>
     </nav>
 
@@ -119,7 +70,7 @@
 
     <!-- About section -->
     <section
-      class="bg-section px-5 text-cadetblue position-relative about-section"
+      class="bg-about-section px-5 text-cadetblue position-relative about-section"
     >
       <div class="bg-section2">
         <div class="">
@@ -142,43 +93,57 @@
       <!-- About Card -->
 
       <div
-        class="d-flex container justify-content-center gap-5 about-box-container"
+        class="d-lg-flex flex-column flex-lg-row container justify-content-center gap-5 about-box-container"
       >
-        <div class="d-flex about-box align-items-center justify-content-center">
-          <h4 class="fw-bold text-white text-center">Graphics Designer</h4>
+        <div
+          class="card-box d-flex flex-column about-box-two align-items-center justify-content-center"
+        >
+          <i class="fa-solid fa-pen-nib fs-3 pb-3 text-dark-cadet"></i>
+          <h4 class="fw-bold text-dark-cadet text-center">
+            Graphics <br />
+            Designer
+          </h4>
         </div>
         <div
-          class="d-flex about-box-two align-items-center justify-content-center text-dark-cadet"
+          class="card-box d-flex flex-column about-box-two align-items-center justify-content-center text-dark-cadet"
         >
+          <i class="fa-solid fa-desktop fs-3 pb-3"></i>
           <h4 class="fw-bold text-dark-cadet text-center">
             Web <br />
             Designer
           </h4>
         </div>
         <div
-          class="d-flex about-box-two align-items-center justify-content-center"
+          class="card-box d-flex flex-column about-box-two align-items-center justify-content-center"
         >
-          <h4 class="fw-bold text-center text-dark-cadet">
-            Website <br />
+          <i class="fa-solid fa-laptop-code fs-3 pb-3"></i>
+          <h4 class="fw-bold text-center text-darks">
+            Web <br />
             Developer
           </h4>
         </div>
       </div>
     </section>
+
+    <!-- footer -->
     <footer class="d-flex pb-5 pt-5">
       <h2 class="d-flex">Let's Talk</h2>
       <div class="mt-4 d-flex gap-3">
         <a target="_blank" href="https://www.facebook.com/msmkrivera"
-          ><i class="fa-brands fa-facebook fs-2 text-white"></i
+          ><i class="fa-brands fa-facebook fs-2 text-white icon-link"></i
         ></a>
         <a href=""
-          ><i class="fa-brands fa-square-instagram fs-2 text-white"></i
+          ><i
+            class="fa-brands fa-square-instagram fs-2 text-white icon-link"
+          ></i
         ></a>
         <a href=""
-          ><i class="fa-brands fa-square-x-twitter fs-2 text-white"></i
+          ><i
+            class="fa-brands fa-square-x-twitter fs-2 text-white icon-link"
+          ></i
         ></a>
         <a target="_blank" href="//github.com/msmkrivera"
-          ><i class="fa-brands fa-github fs-2 text-white"></i
+          ><i class="fa-brands fa-github fs-2 text-white icon-link"></i
         ></a>
       </div>
     </footer>
