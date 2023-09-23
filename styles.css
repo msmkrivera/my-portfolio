@@ -10,6 +10,15 @@ nav {
 
 /* Hero Section */
 
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+
+.logo-size {
+  width: 210px;
+  height: auto;
+}
+
 .nav-link:hover {
   opacity: 1;
   transition: all 0.1s ease-in-out;
@@ -23,7 +32,7 @@ nav {
   left: 0;
 }
 
-.nav-link-button:hover {
+/* .nav-link-button:hover {
   opacity: 1;
   transition: 0.1s;
   border: none;
@@ -36,7 +45,7 @@ nav {
   position: relative;
   bottom: 0;
   left: 0;
-}
+} */
 
 .nav-link-imavailable:hover {
   opacity: 1;
@@ -46,7 +55,7 @@ nav {
   height: 40px;
   /* width: 100%; */
   background-color: #ffffff;
-  color: #f8a827 !important;
+  color: #323543 !important;
   position: relative;
   bottom: 0;
   left: 0;
@@ -105,7 +114,6 @@ footer {
   background-color: #242434;
   justify-content: center;
   align-items: center;
-  padding-bottom: 4%;
 }
 
 footer > .social-media-icons > a > i {
@@ -218,4 +226,9 @@ footer {
     opacity: 0.3;
     bottom: 0;
   }
+}
+
+.font-alright {
+  font-size: 12px;
+  padding-top: 10px;
 }
