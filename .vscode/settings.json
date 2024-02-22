@@ -1,0 +1,9 @@
+{
+        "editor.fontSize": 14,
+        "workbench.editor.tabSizingFixedMaxWidth": 180,
+        "editor.indentSize": "tabSize",
+        "prettier.printWidth": 80,
+        "prettier.useTabs": false,
+        "prettier.useEditorConfig": false,
+        "editor.tabSize": 4
+}
